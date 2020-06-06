@@ -1,0 +1,8 @@
+{
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#5B1213",
+		"titleBar.activeBackground": "#7F191A",
+		"titleBar.activeForeground": "#FEFAFB"
+	},
+	"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

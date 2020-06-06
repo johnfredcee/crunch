@@ -5,6 +5,9 @@ set_compile_options(
     -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual
     -pedantic -fno-rtti -fPIE -fstack-protector-all
 )
+else()
+add_definitions ( -D_UNICODE )
+remove_definitions ( -D_MBCS )	
 endif()
 
 add_library(
